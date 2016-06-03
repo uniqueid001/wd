@@ -26,7 +26,7 @@ _(jsonWireFull).each(function (jw_v, jw_k) {
       key: jw_k,
       method: jw_k.split(' ')[0],
       path: jw_k.split(' ')[1],
-      url: "http://code.google.com/p/selenium/wiki/JsonWireProtocol#" + jw_k.replace(/\s/g, '_'),
+      url: "https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#" + jw_k.replace(/\s/g, '_'),
       desc: jw_v
     },
     wd_doc: []
